@@ -1,4 +1,4 @@
-FROM debian:bullseye
+FROM debian:bookworm-20240513
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update -q && apt-get install -qy \
